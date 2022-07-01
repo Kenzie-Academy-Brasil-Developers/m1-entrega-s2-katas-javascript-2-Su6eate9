@@ -92,7 +92,7 @@ function fibonacci(xFib){
     if(xFib === 1){
         return 0
     }
-    for(let i = 2; i < xFib; i = add(i, 1)){
+    for(let i = 1; i < xFib; i = add(i, 1)){
         final = add(xFibonacci, yFibonacci)
         xFibonacci = yFibonacci
         yFibonacci = final
