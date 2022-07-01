@@ -1,0 +1,7 @@
+xFib;xFibonacci;yFibonacci;final;i;return;console
+-;0;1;0;-;-;-
+-;1;1;0;-;0;-
+> 2;1;1;0;2 + 1;-;-
+> 2;1;1;xFibonacci * yFibonacci;3 + 1;-;-
+> 2;yFibonacci;xFibonacci;xFibonacci * yFibonacci;4 + 1;final;-
+13;final;final;13;5 + 1;13;13
