@@ -53,7 +53,7 @@ function fibonacci(xFib){
     
     let final = 0
 
-    if(xFibonacci === 1){
+    if(xFib === 1){
         return 0
     }
     for(let i = 2; i < xFib; i = add(i, 1)){
@@ -61,7 +61,7 @@ function fibonacci(xFib){
         xFibonacci = yFibonacci
         yFibonacci = final
     }
-    return final
+    return yFibonacci
 }
 console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
 
