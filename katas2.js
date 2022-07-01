@@ -99,7 +99,7 @@ function fibonacci(xFib){
     }
     return yFibonacci
 }
-console.assert(fibonacci(8) === 13, 'A função fibonacci não está funcionando como esperado');
+console.assert(fibonacci(7) === 13, 'A função fibonacci não está funcionando como esperado');
 
 //TESTE DE MESA
 /* 
