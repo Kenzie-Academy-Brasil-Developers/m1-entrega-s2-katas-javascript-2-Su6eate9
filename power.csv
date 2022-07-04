@@ -1,5 +1,6 @@
-xPower;nPower;final;i;return;console
--;-;1;0 + 1;-;-
-final / final;nPower > i;xPower ^ final;1 + 1;-;-
-final / final;nPower > i;xPower ^ final;2 + 1;final;-
-3;4;3^4;3 + 1;3^4 = 81;81
+xPower,nPower,final,i,i < nPower,"multiply(xPower, final)",i++,return final
+3,4,1,0,0 < 4 = true,3*1 = 3,1,-
+3,4,3,1,1 < 4 = true,3*3 = 9,2,-
+3,4,9,2,2 < 4 = true,3*9 = 27,3,-
+3,4,27,3,3 < 4 = true,3*27 = 81,4,-
+3,4,81,4,4 < 4 = false,-,-,81

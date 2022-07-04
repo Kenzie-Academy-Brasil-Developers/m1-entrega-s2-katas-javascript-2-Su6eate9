@@ -4,14 +4,6 @@ function add(xAdd, yAdd){
 }
 console.assert(add(3, 5) === 8, 'A função add não está funcionando como esperado');
 
-//TESTE DE MESA
-/* 
-xAdd;yAdd;soma;return;console
-0;0;"0 + 0 ";-;-
-0;0;0 + 0;0;-
-3;5;3 + 5 = 8;3 + 5 = 8;8
- */
-
 
 // comece a criar a sua função multiply na linha abaixo
 function multiply(xMult, yMult){
@@ -25,15 +17,6 @@ function multiply(xMult, yMult){
 }
 console.assert(multiply(4, 6) === 24, 'A função multiply não está funcionando como esperado');
 
-//TESTE DE MESA
-/* 
-mult;yMult;final;i;return;console
-xMult;-;-;0 + 1 = 1;-;-
-xMult;yMult > 0;mult * final = final;1 + 1 = 2;-;-
--;yMult > 0;mult * final = final;2 + 1 = 3;mult * final = final;-
-4;6;4 * 6 = 24;3 + 1 = 4;24;24
- */
-
 
 // comece a criar a sua função power na linha abaixo
 function power(xPower, nPower){
@@ -46,15 +29,6 @@ function power(xPower, nPower){
 }
 console.assert(power(3, 4) === 81, 'A função power não está funcionando como esperado');
 
-//TESTE DE MESA
-/* 
-xPower;nPower;final;i;return;console
--;-;1;0 + 1;-;-
-final / final;nPower > i;xPower ^ final;1 + 1;-;-
-final / final;nPower > i;xPower ^ final;2 + 1;final;-
-3;4;3^4;3 + 1;3^4 = 81;81
- */
-
 
 // comece a criar a sua função factorial na linha abaixo
 function factorial(xFac){
@@ -66,16 +40,6 @@ function factorial(xFac){
     return final
 }
 console.assert(factorial(5) === 120, 'A função factorial não está funcionando como esperado');
-
-//TESTE DE MESA
-/* 
-xFac;final;i;return;console
--;1;1 + 1;-;-
->= i;1;2 + 1;-;-
->= i;i * final = 1;3 + 1;final;-
-5;i * final = 120;4 + 1;i * final = 120;120
- */
-
 
 
 /**
@@ -100,17 +64,6 @@ function fibonacci(xFib){
     return yFibonacci
 }
 console.assert(fibonacci(7) === 13, 'A função fibonacci não está funcionando como esperado');
-
-//TESTE DE MESA
-/* 
-xFib;xFibonacci;yFibonacci;final;i;return;console
--;0;1;0;-;-;-
--;1;1;0;-;0;-
-> 2;1;1;0;2 + 1;-;-
-> 2;1;1;xFibonacci * yFibonacci;3 + 1;-;-
-> 2;yFibonacci;xFibonacci;xFibonacci * yFibonacci;4 + 1;final;-
-13;final;final;13;5 + 1;13;13
- */
 
 
 //OUTRO MODELO

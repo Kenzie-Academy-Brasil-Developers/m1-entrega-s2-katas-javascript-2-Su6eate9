@@ -1,3 +1,3 @@
-xAdd;yAdd;xAdd + yAdd;return;console
-0;0;"0 + 0 ";-;-
-3;5;3 + 5 = 8;3 + 5 = 8;8
+xAdd,yAdd,xAdd + yAdd,return,console
+0,0,"0 + 0 ",-,-
+3,5,3 + 5 = 8,3 + 5 = 8,8
